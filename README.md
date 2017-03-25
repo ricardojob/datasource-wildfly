@@ -37,6 +37,8 @@ Para criação do datasource e implantação do projeto foram utilizadas as ferr
 > **Nota:**
 >
 > * deve ser informado o caminho absoluto para o arquivo a ser implantado `/Users/job/Documents/dev/testes/exemplo-wildfly-datasource/target/exemplo.war`;
+> 
+> * Utlizando o `wildfly-maven-plugin`, é necessário apenas executar: `mvn wildfly:deploy`;
 
 7. *Caso seja necessário fazer o `undeploy`, executar `../wildfly/bin/jboss-cli.sh --connect --command="undeploy /Users/job/Documents/dev/testes/exemplo-wildfly-datasource/target/exemplo.war.war"`*;
 > **Nota:**
